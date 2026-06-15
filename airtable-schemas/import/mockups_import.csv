@@ -1,0 +1,7 @@
+mockup_type,product_color,image_url,thumbnail_url,is_primary,sort_order,created_at
+"front","black","https://example.com/mockups/001_front_black.png","https://example.com/mockups/001_front_black_thumb.png","true",1,"2026-06-01T13:00:00.000Z"
+"back","black","https://example.com/mockups/001_back_black.png","https://example.com/mockups/001_back_black_thumb.png","false",2,"2026-06-01T13:05:00.000Z"
+"lifestyle","white","https://example.com/mockups/001_lifestyle_white.png","https://example.com/mockups/001_lifestyle_white_thumb.png","false",3,"2026-06-01T13:10:00.000Z"
+"front","white","https://example.com/mockups/002_front_white.png","https://example.com/mockups/002_front_white_thumb.png","true",1,"2026-06-02T11:00:00.000Z"
+"flat-lay","navy","https://example.com/mockups/003_flatlay_navy.png","https://example.com/mockups/003_flatlay_navy_thumb.png","true",1,"2026-06-03T17:00:00.000Z"
+"detail","gray","https://example.com/mockups/003_detail_gray.png","https://example.com/mockups/003_detail_gray_thumb.png","false",2,"2026-06-03T17:05:00.000Z"

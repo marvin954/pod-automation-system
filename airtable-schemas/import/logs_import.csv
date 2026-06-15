@@ -1,0 +1,9 @@
+level,source,action,message,metadata,user_id,ip_address,duration_ms,timestamp
+"info","slack","receive_command","Received /generate command from user","{""command"":""/generate"",""text"":""sunset over mountains""}","U12345678","","5","2026-06-01T10:00:00.000Z"
+"info","n8n","start_workflow","Design generation workflow started","{""workflow"":""03-design-generation"",""design_id"":1}","","","12","2026-06-01T10:00:05.000Z"
+"info","ai","enhance_prompt","Prompt enhanced successfully","{""original"":""sunset over mountains"",""tokens_used"":150}","","",1200,"2026-06-01T10:00:10.000Z"
+"info","n8n","generate_image","Image generated successfully","{""quality_score"":8.5,""api"":""nanobanana""}","","",45000,"2026-06-01T10:01:00.000Z"
+"info","airtable","create_record","Design record saved to Airtable","{""design_id"":1,""table"":""Designs""}","","",350,"2026-06-01T10:01:25.000Z"
+"info","slack","send_notification","Design ready notification sent to Slack","{""channel"":""C0XXXXXXXXX"",""design_id"":1}","","",200,"2026-06-01T10:01:30.000Z"
+"error","n8n","generate_image","Image generation failed - API timeout","{""error"":""ERR_TIMEOUT"",""attempt"":3}","","",30000,"2026-06-04T08:00:35.000Z"
+"warning","printify","create_product","Printify rate limit approaching","{""calls_remaining"":10,""reset_in"":300}","","",0,"2026-06-06T09:00:00.000Z"

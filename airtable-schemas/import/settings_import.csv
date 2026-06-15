@@ -1,0 +1,11 @@
+setting_key,setting_value,setting_type,category,description,is_sensitive,default_value,updated_at,updated_by
+"design_quality_threshold","7","number","design","Minimum quality score for a design to be approved automatically","false","7","2026-06-01T00:00:00.000Z","system"
+"max_regeneration_attempts","3","number","design","Maximum times a design can be regenerated before failing","false","3","2026-06-01T00:00:00.000Z","system"
+"default_product_types","[""t-shirt"",""hoodie"",""mug""]","json","printify","Default product types to create for each approved design","false","[""t-shirt""]","2026-06-01T00:00:00.000Z","system"
+"slack_notification_channel","C0XXXXXXXXX","string","slack","Slack channel ID for bot notifications","false","","2026-06-01T00:00:00.000Z","admin"
+"printify_default_provider","99","number","printify","Default Printify print provider ID","false","99","2026-06-01T00:00:00.000Z","system"
+"etsy_auto_publish","false","boolean","etsy","Automatically publish to Etsy after Printify creation","false","false","2026-06-01T00:00:00.000Z","system"
+"ai_model","claude-3-5-sonnet-20241022","string","ai","Claude model to use for AI tasks","false","claude-3-5-sonnet-20241022","2026-06-01T00:00:00.000Z","system"
+"retry_delay_ms","1000","number","general","Delay in ms between retry attempts","false","1000","2026-06-01T00:00:00.000Z","system"
+"log_level","info","string","general","Logging level: debug, info, warning, error","false","info","2026-06-01T00:00:00.000Z","system"
+"debug_mode","false","boolean","general","Enable debug mode for verbose logging","false","false","2026-06-01T00:00:00.000Z","system"
