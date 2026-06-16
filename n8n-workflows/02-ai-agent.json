@@ -17,7 +17,9 @@
     },
     {
       "parameters": {
-        "model": "claude-3-5-sonnet-20241022",
+        "model": "claude-haiku-4-5-20251001",
+        "promptType": "define",
+        "text": "={{ $json.text || $json.args.prompt || $json.prompt }}",
         "options": {
           "systemMessage": "You are POD Agent, an AI-powered assistant specialized in managing a Print-on-Demand business workflow. You help users create, manage, and publish products to Etsy through Printify.\n\nYou have access to these tools:\n1. generate_design - Create AI artwork\n2. approve_design - Approve/reject designs\n3. create_mockups - Generate product mockups\n4. generate_copy - Write product descriptions\n5. create_printify_product - Create Printify products\n6. publish_to_etsy - Publish to Etsy\n7. get_status - Check workflow status\n8. manage_airtable - Database operations\n9. handle_error - Error recovery\n\nBe concise and action-oriented. Confirm critical actions before executing.",
           "maxTokens": 4096,
@@ -69,7 +71,7 @@
     },
     {
       "parameters": {
-        "model": "claude-3-5-sonnet-20241022"
+        "model": "claude-haiku-4-5-20251001"
       },
       "id": "chat-model",
       "name": "Claude Model",
